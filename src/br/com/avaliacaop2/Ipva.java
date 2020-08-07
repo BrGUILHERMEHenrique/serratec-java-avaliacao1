@@ -22,7 +22,10 @@ public class Ipva extends Veiculo {
             valorIpva = (valorVeiculo * 0.03) + taxaLicenciamento;
         } else{
             valorIpva = valorVeiculo * 0.04;
+<<<<<<< HEAD
         }
+=======
+>>>>>>> dd0969ac8ea0a943ee61187af8b4922e0f63bc03
     }
 
 	@Override
